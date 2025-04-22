@@ -1,7 +1,10 @@
 {
   "name": "ValheimOnlineTracker",
-  "version_number": "1.1.2",
+  "description": "Tracks online players, server uptime, and posts updates to Discord. Includes MVP of the Day, milestone time & logins, and graceful shutdown notifications as well as server start notifications.",
+  "version_number": "2.0.0",
   "website_url": "https://thunderstore.io/c/valheim/",
-  "description": "Posts online Valheim players to a Discord webhook. Fully customizable.",
-  "dependencies": [ "denikson-BepInExPack_Valheim-5.4.2202" ]
+  "dependencies": [ "denikson-BepInExPack_Valheim-5.4.2202" ],
+  "categories": [ "Tools", "Server", "Misc" ],
+  "author": "Lord Dredd"
 }
+
