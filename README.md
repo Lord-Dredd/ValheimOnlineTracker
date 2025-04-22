@@ -1,54 +1,46 @@
-# 🛡️ Lands of Dredd – Valheim Server & Mod Config Hub
+⚔️ Valheim Online Tracker
+A lightweight server-side mod that posts a list of currently online players and other things to a configurable Discord webhook.
 
-Welcome, brave Vikings!
+Perfect for private or public Valheim servers that want to track player activity in real-time through Discord.
 
-This repository serves as the central place for managing and improving the **Lands of Dredd** Valheim server. Here you'll find configuration files, mod setups, and other server-related assets for review, collaboration, and chaos tweaking.
+🔧 Features
+🟢 Posts a list of online players at a configurable interval (default: every 10 minutes)
 
----
+📣 Customizable messages for server startup, shutdown, and player activity
 
-## 🗂️ What You'll Find Here
+📁 Automatically generates a config file in BepInEx/config/OnlineTracker/
 
-- `config/` – Game and mod configuration files (e.g., WackysDatabase, PlanBuild, EpicLoot, etc.)
-- `mod/` – Custom mod files, source code, and Thunderstore-ready packaging
-- `blueprints/` – Optional folder for sharing PlanBuild blueprints
-- `README.md` – This file. Duh.
-- `issues/` – Use GitHub Issues to report bugs, suggest changes, or post feedback.
+🔒 Works fully server-side — no client install required
 
----
+🛠️ Easy to install, update, and share
 
-## 🧰 How You Can Help
+This MOD is basic at this level, what I have now posting is as follows.
 
-1. **Suggest edits** to configuration files for balance, fun, or performance
-2. **Submit Pull Requests** with changes (especially to drop rates, recipes, loot tables, etc.)
-3. **Report bugs** using the Issues tab
-4. **Help us test** new mods or features
-5. **Contribute lore, ideas, or zone names** to enrich the Lands of Dredd
+-Server Start / Stop
+-Player Login / Logoff
+-Players currently online, player names and time spent online. Today - This week - total
+-Posts hourly (can be changed) when no one is online, to know server is still alive.
+-Two WebHook options (honestly i forgot to test the second URL option)
+-There are also two Milestones posts, one for logins and one for time. 100 logs or 50 hours both have a post.
 
----
+📂 Installation
+Install BepInEx on your Valheim dedicated server.
 
-## ⚙️ About the Server
+Drop the plugin .dll into:
+BepInEx/plugins/OnlineTracker/
 
-> The Lands of Dredd is a custom Valheim world where danger and discovery walk hand-in-hand. We use a wide variety of mods including Epic Loot, Monstrum, Warfare, WackysDatabase, and many others to create a challenging, rewarding experience.
+Launch the server once to generate the config: BepInEx/config/OnlineTracker/ValheimOnlineTracker.cfg
 
-We strive for:
-- ⚖️ Balanced gameplay
-- 🔥 Tougher enemies and bosses
-- ⚒️ Epic building and loot possibilities
-- 🧙 A touch of Viking magic and madness
+Edit the config file to add your Discord webhook and customize messages, after first run, most if not all posting text and times can be changed.
 
----
+Normally I would use DiscordConnector and in the past it worked brilliantly for me, but this time around I was not able to make the leaderboards work, so me and the AI decided to try our hand at making our own MOD. I have used ChatGpt4 AI for this MOD. AI all the way!
 
-## 📣 Join the Adventure
+Join us over in The Lands of Dredd Discord and play Valheim with us on our dedicated server.
 
-Want to play or contribute?
-Reach out via Discord or keep an eye on this repository for updates.
 
----
+https://discord.gg/BwZtCveGru
 
-### ⚠️ Disclaimer
+Lord Dredd
 
-This is a fan-made, modded Valheim server. Not affiliated with Iron Gate Studios. Mods used are credited to their respective authors.
 
----
 
-**Glory awaits. Sharpen your axe.**
